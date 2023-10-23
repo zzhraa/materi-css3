@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Coba Frefixes</title>
+        <style>
+            body {
+                text-align: center;
+            }
+
+            /* Filter
+                blur (px)
+                contrast(angka | %)
+                saturate(angka | %)
+                grayscale(angka | %)
+                sepia(angka | %)
+                hue-rotate(deg)
+                invert(angka | %)
+                opacity(angka | %)
+                drop-shadow(sama seperti box-shadow)
+            */
+
+            img {
+                filter: blur(10px) grayscale(1);
+            }
+            img:hover {
+                filter: blur() grayscale();
+                transition: 1s;
+            }
+
+        </style>
+    </head>
+    <body>
+        
+        <img src="kayyin.jpg" alt="Karina" width="300">
+
+    </body>
+</html>
